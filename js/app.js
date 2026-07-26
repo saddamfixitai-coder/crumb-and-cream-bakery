@@ -7,7 +7,7 @@
       name: "Classic Chocolate Cake",
       category: "cakes",
       price: 2499,
-      image: "🍰",
+      image: "images/chocolate-cake.jpg",
       description: "Rich chocolate sponge with smooth cream."
     },
     {
@@ -15,7 +15,7 @@
       name: "Red Velvet Cake",
       category: "cakes",
       price: 2999,
-      image: "🍰",
+      image: "images/red-velvet-cake.jpg",
       description: "Soft red velvet layers with cream cheese frosting."
     },
     {
@@ -23,7 +23,7 @@
       name: "Chicken Patties",
       category: "pastries",
       price: 180,
-      image: "🥐",
+      image: "images/chicken-patties.jpg",
       description: "Flaky pastry filled with savoury chicken."
     },
     {
@@ -31,7 +31,7 @@
       name: "Butter Croissant",
       category: "pastries",
       price: 220,
-      image: "🥐",
+      image: "images/butter-croissant.jpg",
       description: "Golden, flaky and baked fresh daily."
     },
     {
@@ -39,7 +39,7 @@
       name: "Chocolate Chip Cookies",
       category: "cookies",
       price: 650,
-      image: "🍪",
+      image: "images/chocolate-cookies.jpg",
       description: "A box of soft, buttery chocolate chip cookies."
     },
     {
@@ -47,7 +47,7 @@
       name: "Nankhatai Box",
       category: "desi",
       price: 550,
-      image: "🍪",
+      image: "images/nankhatai.jpg",
       description: "Traditional Pakistani melt-in-your-mouth biscuits."
     },
     {
@@ -55,7 +55,7 @@
       name: "Gulab Jamun Cheesecake",
       category: "desi",
       price: 2899,
-      image: "🍰",
+      image: "images/gulab-jamun-cheesecake.jpg",
       description: "A modern cheesecake with a desi twist."
     },
     {
@@ -63,7 +63,7 @@
       name: "Cinnamon Rolls",
       category: "pastries",
       price: 850,
-      image: "🥐",
+      image: "images/cinnamon-rolls.jpg",
       description: "Soft rolls with cinnamon sugar and glaze."
     }
   ];
@@ -97,9 +97,12 @@
         (p) => `
         <article class="product-card">
           <div class="product-image">
-            <span style="font-size: 3rem; display: flex; align-items: center; justify-content: center; height: 100%;">
-              ${p.image}
-            </span>
+            <img 
+              src="${p.image}" 
+              alt="${p.name}"
+              loading="lazy"
+              onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22%3E%3Crect fill=%22%23f7e2d2%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23756b65%22 font-size=%2240%22%3E🍰%3C/text%3E%3C/svg%3E'"
+            >
           </div>
 
           <div class="product-info">
@@ -150,9 +153,11 @@
         <div class="cart-item">
 
           <div class="cart-item-icon">
-            <span style="font-size: 2rem;">
-              ${item.image}
-            </span>
+            <img 
+              src="${item.image}" 
+              alt="${item.name}"
+              onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%23f7e2d2%22 width=%22100%22 height=%22100%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2250%22%3E🍰%3C/text%3E%3C/svg%3E'"
+            >
           </div>
 
           <div class="cart-item-info">
