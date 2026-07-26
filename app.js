@@ -7,7 +7,7 @@
       name: "Classic Chocolate Cake",
       category: "cakes",
       price: 2499,
-      image: "download (1).jpg",
+      image: "cake.jpg",
       description: "Rich chocolate sponge with smooth cream."
     },
     {
@@ -15,7 +15,7 @@
       name: "Red Velvet Cake",
       category: "cakes",
       price: 2999,
-      image: "download (2).jpg",
+      image: "red-velvet.jpg",
       description: "Soft red velvet layers with cream cheese frosting."
     },
     {
@@ -23,7 +23,7 @@
       name: "Chicken Patties",
       category: "pastries",
       price: 180,
-      image: "download (3).jpg",
+      image: "patties.jpg",
       description: "Flaky pastry filled with savoury chicken."
     },
     {
@@ -31,7 +31,7 @@
       name: "Butter Croissant",
       category: "pastries",
       price: 220,
-      image: "download (4).jpg",
+      image: "croissant.jpg",
       description: "Golden, flaky and baked fresh daily."
     },
     {
@@ -39,7 +39,7 @@
       name: "Chocolate Chip Cookies",
       category: "cookies",
       price: 650,
-      image: "download (5).jpg",
+      image: "cookies.jpg",
       description: "A box of soft, buttery chocolate chip cookies."
     },
     {
@@ -47,7 +47,7 @@
       name: "Nankhatai Box",
       category: "desi",
       price: 550,
-      image: "download (6).jpg",
+      image: "nankhatai.jpg",
       description: "Traditional Pakistani melt-in-your-mouth biscuits."
     },
     {
@@ -55,7 +55,7 @@
       name: "Gulab Jamun Cheesecake",
       category: "desi",
       price: 2899,
-      image: "download (7).jpg",
+      image: "cheesecake.jpg",
       description: "A modern cheesecake with a desi twist."
     },
     {
@@ -63,7 +63,7 @@
       name: "Cinnamon Rolls",
       category: "pastries",
       price: 850,
-      image: "images (3).jpg",
+      image: "cinnamon-rolls.jpg",
       description: "Soft rolls with cinnamon sugar and glaze."
     }
   ];
